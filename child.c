@@ -14,7 +14,7 @@ int main() {
 
         while (*curr) {
             while (*curr == ' ' || *curr == '\t' || *curr == '\n')
-                curr++;
+                curr++; 
 
             int sign = 1;
             if (*curr == '-') {
